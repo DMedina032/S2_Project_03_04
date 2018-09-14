@@ -1,0 +1,95 @@
+﻿@charset "utf-8";
+
+
+@font-face {
+    font-family: Champagne;
+    src: url('cac_champagne.woff') format('woff'),
+        url('cac_champagne.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: Dobkin;
+    src: url('DobkinPlain.woff') format('woff'),
+        url('DobkinPlain.ttf') format('ttf');
+}
+
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: Dajah Medina
+   Date:   9.13.18
+   
+   Filename: lake_styles.css
+
+*/
+html {
+    background-color: rgb(247, 171, 159);
+}
+
+body {
+    background-color: rgb(231, 208, 181);
+}
+
+h1 {
+    font-style: oblique;
+    text-align: center;
+    font-weight: normal;
+    font-weight: normal;
+}
+
+h2 {
+    font-style: italic;
+    text-align: center;
+}
+
+p {
+    padding: 7px;
+    padding-right: 10px;
+}
+
+header>nav {
+    background-color: antiquewhite;
+}
+
+/* Navigation styles  */
+nav>ul {
+    padding: 5px;
+    text-align: center;
+    list-style: none;
+}
+
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:active {
+    color: indianred;
+}
+
+/* Artical styles */
+article#rightcol h1 {
+    font-size: 2.2em;
+    letter-spacing: 0.3em;
+}
+
+section#rightcol {
+    background-color: bisque;
+}
+
+/* Blockquote */
+blockquote p {
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+blockquote {
+    color: rgb(7, 7, 146);
+}
